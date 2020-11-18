@@ -15,7 +15,7 @@
 }
 
 .cont__titulo{
-	margin-top: 120px;
+	margin-top: 80px;
 	text-align: center;
 	font-size: 40pt;
 	font-family: 'Dosis', sans-serif;
@@ -34,11 +34,25 @@
 .cont__img-portada{
 	margin-bottom: 30px;
 	margin-left: 0px;
+	justify-content: space-around;
+}
+
+.img-portada{
+	opacity: 0.3;
+	transition: all 2s
+}
+
+.img-portada:hover{
+	opacity: 1.0;
 }
 
 .cont__tarjetas{
 	margin-bottom: 50px;
-	justify-content: center;
+	justify-content: space-around;
+}
+
+.cont__tarj_portada{
+	text-align: center;
 }
 
 .historia_texto{
@@ -53,13 +67,14 @@
 
 .tarj_portada{
 	width: 50vh;
-	transition: all 2s;
+	transition: all 1s;
 	z-index: 1;
 }
 
 .tarj_portada:hover{
 	height: 200px;
 	z-index: 999;
+	text-align: center;
 }
 
 form
@@ -138,14 +153,17 @@ footer{
 	.tarj_portada{
 		width: auto;
 		height: 300px;
-		transition: all 2s;
+		transition: all 1s;
 		z-index: 1;
+		text-align: center;
 	}
 
 	.tarj_portada:hover{
 		height: 400px;
 		z-index: 999;
 	}
+
+
 
 }
 
