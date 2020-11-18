@@ -1,0 +1,191 @@
+/* paleta de colores
+	Space Caddet: #2e2d4d; --> Destacado
+	Pale pink: #FFDBDA; 
+	Light Pink: #fdafb3;
+	Aquamarine: #8cffda;
+ 	Popstar: #CE4760; --> Destacado
+ */
+
+.logo{
+	height: 80px;
+}
+
+.navbar{
+	background-color: #FFDBDA;
+}
+
+.cont__titulo{
+	margin-top: 120px;
+	text-align: center;
+	font-size: 40pt;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+.cont__subtitulo{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 28pt;
+	justify-content: center;
+	font-family: 'Dosis', sans-serif;
+	
+}
+
+.cont__img-portada{
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+.cont__tarjetas{
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.historia_texto{
+	align-items: center;
+	margin-left: 0px;
+}
+
+
+.foto__historia{
+	height: 300px;
+}
+
+.tarj_portada{
+	width: 50vh;
+	transition: all 2s;
+	z-index: 1;
+}
+
+.tarj_portada:hover{
+	height: 200px;
+	z-index: 999;
+}
+
+form
+	div{
+		padding: 10px 0px 10px 0px;
+	}
+
+.form-check{
+	padding-right: 20px;
+}
+
+.boton_redsocial{
+	height: 30px;
+	padding-right: 20px;
+}
+
+.cont_form{
+	background-color: #FFDBDA;
+	margin-top: 30px;
+	font-size: 11pt;
+	margin-bottom: 30px;
+}
+
+.form_label{
+	font-size: 14pt;
+}
+
+.btn-enviar{
+	margin-left: 15px;
+	background-color: #fdafb3;
+}
+
+.btn-enviar:hover{
+	background-color: #CE4760;
+}
+
+.fila_galeria{
+	margin-top: 50px;
+	justify-content: space-around;
+}
+
+.img_galeria{
+	height: 150px;
+	transition: all 2s;
+}
+
+
+
+ul.nav{
+	justify-content: space-between;
+}
+
+
+.img_galeria:hover{
+	height: 200px;
+}
+
+footer{
+	font-size: 10pt;
+	margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+	.img_galeria{
+		height: 300px;
+		transition: all 2s;
+	}
+
+	.img_galeria:hover{
+		height: 450px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	.tarj_portada{
+		width: auto;
+		height: 300px;
+		transition: all 2s;
+		z-index: 1;
+	}
+
+	.tarj_portada:hover{
+		height: 400px;
+		z-index: 999;
+	}
+
+}
+
+.historia__foto{
+	justify-content: center;
+}
+
+.foto_historia_grande{
+	height: 50vh;
+	border-radius: 5px;
+	transition: all 3s;
+}
+
+.foto_historia_grande:hover{
+	height: 80vh;
+	border-radius: 40px;
+}
+
+.bio_extendida{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.experiencia{
+	margin-top: 30px;
+}
+
+.fila_tabla{
+	justify-content: space-around;
+}
+
+.titulo_tabla{
+	background-color: #fdafb3;
+	border-radius: 10px;
+	font-weight: 600;
+	text-decoration-color: #2e2d4d; 
+}
+
+.celda_tabla{
+	background-color: #8cffda;
+	border-radius: 10px;
+	margin-top: 5px;
+}
